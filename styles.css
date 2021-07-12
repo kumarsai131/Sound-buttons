@@ -1,0 +1,29 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container button{
+    margin-right: 25px;
+    padding: 10px;
+    flex: 2;
+    margin-left: 15px;
+    background: blueviolet;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+.container button:hover{
+    color: black;
+}
